@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Browser"
+        android:textSize="25dp"
+        android:id="@+id/btnbrowser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49sp"
+        android:hint="Enter text here"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:id="@+id/editText"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="passValueBtn"
+        android:textSize="25dp"
+        android:id="@+id/passvalue"
+        android:layout_marginTop="49dp"
+        />
+
+
+
+
+</LinearLayout>
